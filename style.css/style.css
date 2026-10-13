@@ -1,0 +1,689 @@
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue; 
+}
+
+.header{
+    width: 212cqb;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 40px 60px; 
+} 
+
+.container h1{
+    margin: 0;
+    font-size: 35px;
+}
+
+.navbar{
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 90px;
+}
+
+.nav-links{
+    display: flex; 
+    list-style: none;
+    gap: 36px; 
+    margin: 0;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #333; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.chalid{
+    margin-left: 76px;
+    font-weight: bolder;
+    font-size: 22px;
+}  
+
+.container p{
+    margin-left: 86px;
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.active p{
+    margin-left: 76px;
+    line-height: 26px;
+    font-weight:  500;
+    font-size: 25px;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    line-height: 30px;
+}
+
+#contact{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-left: 76px;
+    height: 110px; 
+    width: 295px;
+    background-color: black;  
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.container img{
+    width: 1928px;
+}
+
+.active img{
+    height: 490px; 
+    width: 630px;
+    position: absolute; 
+    right: 220px;
+    top: 150px;
+}
+
+.contan img{
+    width: 900px;
+}
+
+.img-pic{
+    display: flex;
+    gap: 350px; 
+    margin-left: 190px;
+}
+
+.heading{
+    position: absolute;
+    top: 127%; 
+    left: 187px;
+    bottom:0px;
+    font-size: 46px;
+    letter-spacing: 1px;
+}
+
+.paragrph{
+    position: absolute;
+    /* top: 1200px; */
+    left: 111px;
+    bottom: -48%;
+    font-size: 29px;
+    letter-spacing: 0.1px;
+    line-height: 38px; 
+    word-spacing: 1px;
+    font-weight: 200px;
+}
+
+.into{
+    display: inline-block;
+    margin-left: -9px;
+}
+
+.anima{
+    display: block;
+    text-align: center;
+}
+
+.head{
+    position: absolute;
+    bottom: -309px;
+    left: 875px; 
+    font-size: 48px;
+}
+
+.param{
+    position: absolute;
+    bottom: -455px;
+    font-size: 31px; 
+    left: 756px;
+    line-height: 39px; 
+    letter-spacing: 0.4px;
+}  
+
+.sticky{
+    position: absolute;
+    left: 1560px;
+    bottom: -308px;
+    font-size: 46px;
+    word-spacing: 1px;
+}
+
+.style{
+    position: absolute;
+    bottom: -444px;
+    font-size: 31px; 
+    left: 1440px;
+    line-height: 39px;
+    word-spacing: 0.4;
+}
+
+.test{
+    text-align: center;
+    padding: 410px;
+    font-size: 55px;
+}  
+
+#img{
+    position: absolute;
+    left: 38px;
+    top:  1790px;
+    width: 620px;
+    height: 530px; 
+}
+
+#imge{
+    position: absolute;
+    left: 699px;
+    top: 1790px;
+    width: 620px;
+    height: 530px; 
+}
+
+#imge-png{
+    position: absolute;
+    left: 1359px;
+    top: 1790px;
+    width: 620px;
+    height: 530px;
+}
+
+#project-title{
+    position: absolute;
+    bottom: -1450px;
+    left: 36px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#ui-png{
+    position: absolute;
+    bottom: -1510px;
+    left: 35px;
+    font-size: 30px;
+}
+
+#project-png{
+    position: absolute;
+    bottom: -1450px;
+    left: 699px;
+    font-size: 39px;
+    color: black;
+    letter-spacing: 0.1px;
+}
+
+#art-png{
+    position: absolute;
+    bottom: -1510px;
+    left: 698px;
+    font-size: 30px;
+}
+
+#title-png{
+    position: absolute;
+    bottom: -1450px;
+    left: 1359px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#ddp-png{
+    position: absolute;
+    bottom: -1510px;
+    left: 1359px;
+    font-size: 30px
+}
+
+#constant{
+    position: absolute;
+    left: 38px;
+    top:  2500px;
+    width: 620px;
+    height: 530px;
+}
+
+#contant-png{
+    position: absolute;
+    left: 699px;
+    top:  2500px;
+    width: 620px;
+    height: 530px;
+}
+
+#book-png{
+    position: absolute;
+    left: 1359px;
+    top:  2500px;
+    width: 620px;
+    height: 530px;
+}
+
+#project-pic{
+    position: absolute;
+    bottom: -2155px;
+    left: 36px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#UI-pic{
+    position: absolute;
+    bottom: -2210px;
+    left: 36px;
+    font-size: 30px;
+}
+
+#title-pic{
+    position: absolute;
+    bottom: -2155px;
+    left: 698px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#art-pic{
+    position: absolute;
+    bottom: -2210px;
+    left: 698px;
+    font-size: 30px;
+}
+
+#project-picture{
+    position: absolute;
+    bottom: -2155px;
+    left: 1358px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#dir-pic{
+    position: absolute;
+    bottom: -2210px;
+    left: 1358px;
+    font-size: 30px;
+}
+
+#client-png{
+    position: absolute;
+    font-size: 55px;
+    top: 3300px;
+    left: 783px;
+}
+
+#tested{
+    position: absolute;
+    width: 620px;
+    height: 530px; 
+    left: 38px;
+    top:  3450px;
+
+}
+
+#texted{
+    position: absolute;
+    width: 620px;
+    height: 530px; 
+    left: 699px;
+    top: 3450px;
+}
+
+#card{
+    position: absolute;
+    left: 1359px;
+    top: 3450px;
+    width: 620px;
+    height: 530px;
+}
+
+#profile{
+    position: absolute;
+    left: 38px;
+    top:  4015px;
+    width: 620px;
+    height: 530px;
+}
+
+#file{
+    position: absolute;
+    left: 699px;
+    top:  4015px;
+    width: 620px;
+    height: 530px;
+}
+
+#file-png{
+    position: absolute;
+    left: 1359px;
+    top:  4015px;
+    width: 620px;
+    height: 530px;
+}
+
+#user{
+    position: absolute;
+    left: 36px;
+    bottom: -400%;
+    font-size: 50px;
+}  
+
+#figma{
+    position: absolute;
+    left: 36px;
+    bottom: -417%;
+    font-size: 28px;
+    line-height: 41px;
+    font-weight: 548;
+}
+
+#user-info{
+    position: absolute;
+    left: 12px;
+    width: 500px;
+    bottom: -4100px;
+    color: black;
+}
+
+#contact-form{
+    position: absolute;
+    left: 1215px;
+    bottom: -3939px;
+    width: 770px;
+    height: 90px;
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: #F2F2F2;
+    border: none;
+    font-weight: 500;
+}
+
+#form{
+    position: absolute;
+    left: 1215px;
+    bottom: -4049px;
+    width: 770px;
+    height: 90px;
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: #F2F2F2;
+    border: none;
+    font-weight: 500;
+}
+
+#box{
+    position: absolute;
+    text-decoration: none;
+    box-sizing: border-box;
+    bottom: -4199px;
+    margin-left: 1215px;
+    height: 110px; 
+    width: 295px;
+    background-color: black;  
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: none;
+}
+ 
+#imge-png{
+    position: absolute;
+    left: 1359px;
+    top: 1790px;
+    width: 620px;
+    height: 530px;
+}
+
+#project-title{
+    position: absolute;
+    bottom: -1450px;
+    left: 36px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#ui-png{
+    position: absolute;
+    bottom: -1510px;
+    left: 35px;
+    font-size: 30px;
+}
+
+#project-png{
+    position: absolute;
+    bottom: -1450px;
+    left: 699px;
+    font-size: 39px;
+    color: black;
+    letter-spacing: 0.1px;
+}
+
+#art-png{
+    position: absolute;
+    bottom: -1510px;
+    left: 698px;
+    font-size: 30px;
+}
+
+#title-png{
+    position: absolute;
+    bottom: -1450px;
+    left: 1359px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#ddp-png{
+    position: absolute;
+    bottom: -1510px;
+    left: 1359px;
+    font-size: 30px
+}
+
+#constant{
+    position: absolute;
+    left: 38px;
+    top:  2500px;
+    width: 620px;
+    height: 530px;
+}
+
+#contant-png{
+    position: absolute;
+    left: 699px;
+    top:  2500px;
+    width: 620px;
+    height: 530px;
+}
+
+#book-png{
+    position: absolute;
+    left: 1359px;
+    top:  2500px;
+    width: 620px;
+    height: 530px;
+}
+
+#project-pic{
+    position: absolute;
+    bottom: -2155px;
+    left: 36px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#UI-pic{
+    position: absolute;
+    bottom: -2210px;
+    left: 36px;
+    font-size: 30px;
+}
+
+#title-pic{
+    position: absolute;
+    bottom: -2155px;
+    left: 698px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#art-pic{
+    position: absolute;
+    bottom: -2210px;
+    left: 698px;
+    font-size: 30px;
+}
+
+#project-picture{
+    position: absolute;
+    bottom: -2155px;
+    left: 1358px;
+    color:  dark black;
+    font-size: 39px;
+    letter-spacing: 0.1px;
+}
+
+#dir-pic{
+    position: absolute;
+    bottom: -2210px;
+    left: 1358px;
+    font-size: 30px;
+}
+
+#client-png{
+    position: absolute;
+    font-size: 55px;
+    top: 3300px;
+    left: 783px;
+}
+
+#tested{
+    position: absolute;
+    width: 620px;
+    height: 530px; 
+    left: 38px;
+    top:  3450px;
+
+}
+
+#texted{
+    position: absolute;
+    width: 620px;
+    height: 530px; 
+    left: 699px;
+    top: 3450px;
+}
+
+#card{
+    position: absolute;
+    left: 1359px;
+    top: 3450px;
+    width: 620px;
+    height: 530px;
+}
+
+#profile{
+    position: absolute;
+    left: 38px;
+    top:  4015px;
+    width: 620px;
+    height: 530px;
+}
+
+#file{
+    position: absolute;
+    left: 699px;
+    top:  4015px;
+    width: 620px;
+    height: 530px;
+}
+
+#file-png{
+    position: absolute;
+    left: 1359px;
+    top:  4015px;
+    width: 620px;
+    height: 530px;
+}
+
+#user{
+    position: absolute;
+    left: 36px;
+    bottom: -400%;
+    font-size: 50px;
+}  
+
+#figma{
+    position: absolute;
+    left: 36px;
+    bottom: -417%;
+    font-size: 28px;
+    line-height: 41px;
+    font-weight: 548;
+}
+
+#user-info{
+    position: absolute;
+    left: 12px;
+    width: 500px;
+    bottom: -4100px;
+    color: black;
+}
+
+#contact-form{
+    position: absolute;
+    left: 1215px;
+    bottom: -3939px;
+    width: 770px;
+    height: 90px;
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: #F2F2F2;
+    border: none;
+    font-weight: 500;
+}
+
+#form{
+    position: absolute;
+    left: 1215px;
+    bottom: -4049px;
+    width: 770px;
+    height: 90px;
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: #F2F2F2;
+    border: none;
+    font-weight: 500;
+}
+
+#box{
+    position: absolute;
+    text-decoration: none;
+    box-sizing: border-box;
+    bottom: -4199px;
+    margin-left: 1215px;
+    height: 110px; 
+    width: 295px;
+    background-color: black;  
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: none;
+}
+
